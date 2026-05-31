@@ -1,0 +1,6 @@
+build/
+__pycache__/
+*.pyc
+*.uf2
+*.elf
+*.bin
