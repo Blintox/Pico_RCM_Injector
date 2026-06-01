@@ -1,6 +1,6 @@
 # Pico RCM Injector
 
-This is a Raspberry Pi Pico / RP2040 firmware scaffold for using the Pico as a USB host that detects an NVIDIA APX/RCM device (`0955:7321`) and sends an embedded RCM payload.
+This is a Raspberry Pi Pico / RP2040 firmware scaffold for using the Pico as a USB host that detects APX/RCM device and sends an embedded RCM payload.
 
 It is modeled after the shape of `fusee-alpestre`, but not the implementation. `fusee-alpestre` builds a Raspberry Pi Linux image and runs a launcher from Linux; this project is bare-metal Pico SDK firmware using TinyUSB host mode.
 
