@@ -4,7 +4,15 @@ This is a Raspberry Pi Pico / RP2040 firmware scaffold for using the Pico as a U
 
 It is modeled after the shape of `fusee-alpestre`, but not the implementation. `fusee-alpestre` builds a Raspberry Pi Linux image and runs a launcher from Linux; this project is bare-metal Pico SDK firmware using TinyUSB host mode.
 
-Use this only with hardware you own, with payloads you are allowed to use, and for lawful homebrew/recovery work.
+## Lawful Use Only
+
+This project is provided only for lawful homebrew, recovery, repair, research, and interoperability work on hardware you personally own or are explicitly authorized to service.
+
+Do not use this project to pirate games, bypass payment, defeat online service rules, run unauthorized copies of copyrighted works, distribute console keys, distribute copyrighted firmware, or help anyone else do those things.
+
+You are responsible for understanding and following the laws, licenses, warranty terms, and platform rules that apply where you live. This repository does not grant permission to circumvent copyright protection systems or use third-party copyrighted material without authorization.
+
+If you are unsure whether your intended use is lawful, do not use this project until you have checked the applicable rules or obtained proper legal advice.
 
 This repository includes a generated Hekate payload header. See `NOTICE.md` and `third_party/` for source, attribution, and license details.
 
