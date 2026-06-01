@@ -4,6 +4,13 @@ This is a Raspberry Pi Pico / RP2040 firmware scaffold for using the Pico as a U
 
 It is modeled after the shape of `fusee-alpestre`, but not the implementation. `fusee-alpestre` builds a Raspberry Pi Linux image and runs a launcher from Linux; this project is bare-metal Pico SDK firmware using TinyUSB host mode.
 
+## Instructions
+
+1. Flash latest .uf2 to pico from releases
+2. Power pico with 5v through VBUS and Ground (must be VBUS and 5v)
+3. Put device in RCM mode and connect powered pico through usb-c
+4. Afer Payload Delivery disconnect pico
+
 ## Lawful Use Only
 
 This project is provided only for lawful homebrew, recovery, repair, research, and interoperability work on hardware you personally own or are explicitly authorized to service.
