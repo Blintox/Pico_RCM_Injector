@@ -22,8 +22,8 @@ This repository includes a generated Hekate payload header. See `NOTICE.md` and 
 ## Instructions
 
 1. Flash latest .uf2 to pico from releases
-2. Power pico with 5v through VBUS and Ground (must be VBUS and 5v)
-3. Put device in RCM mode and connect powered pico through usb-c
+2. Power pico with 5v through VBUS and Ground (must be VBUS and 5v). Pico led should slow blink while waiting for device.
+3. Put device in RCM mode and connect powered pico through usb-c. Pico led should be solid green while injecting payload.
 4. Afer Payload Delivery disconnect pico
 
 ## Hardware Notes
