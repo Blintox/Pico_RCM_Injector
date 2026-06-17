@@ -22,7 +22,7 @@ This repository includes a generated Hekate payload header. See `NOTICE.md` and 
 ## Instructions
 
 1. Flash latest .uf2 to pico from releases
-2. Power pico with 5v through VBUS and Ground (must be VBUS and 5v). Pico led should slow blink while waiting for device.
+2. Power pico with 3-5v through VSYS and Ground. Pico led should slow blink while waiting for device.
 3. Put device in RCM mode and connect powered pico through usb-c. Pico led should be solid green while injecting payload.
 4. Afer Payload Delivery disconnect pico
 
@@ -33,8 +33,8 @@ The Pico must act as the USB host and provide VBUS to the Switch-side USB connec
 Minimum wiring for a standalone injector:
 
 - Pico USB `D+` and `D-` to the Switch USB-C cable/device connector data pair.
-- Stable 5 V to the target connector VBUS through a current-limited source.
-- Common ground between Pico, 5 V supply, and USB connector.
+- Stable 5 V to the target connector VSYS through a current-limited source.
+- Common ground between Pico, 3-5 V supply, and USB connector.
 - Pico powered from `VSYS` or `VBUS`, depending on your power design.
 
 Do not connect two powered USB hosts together. Use a known-good USB-C data cable and a current-limited 5 V source.
