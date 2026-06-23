@@ -28,6 +28,8 @@ This repository includes a generated Hekate payload header. See `NOTICE.md` and 
 
 ## Hardware Notes
 
+3-D Printable Case https://www.printables.com/model/1762449-pico-case-for-re-chargeable-battery-and-onoff-tac/files
+
 The Pico must act as the USB host and provide VBUS to the Switch-side USB connection. A normal Pico plugged into a PC over micro-USB is a USB device, not a host.
 
 Minimum wiring for a standalone injector:
